@@ -1,10 +1,6 @@
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Carousel from './components/Carousel';
-import Projects from './components/Projects';
-import About from './components/About';
-
 
 function App() {
   return (

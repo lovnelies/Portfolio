@@ -1,4 +1,4 @@
-import React from 'react';
+
 import image from '../assets/avatar.png'; // puedes cambiar por la que necesites
 
 function About() {
