@@ -26,9 +26,7 @@ const Home = () => {
       {/*
   
       {/* Sección Proyectos */}
-      <section id="Contactos" className="px-5 py-5  flex items-center justify-center">
-      <ContactForm />
-      </section>
+      
       {/* Footer */}
       
     </div>

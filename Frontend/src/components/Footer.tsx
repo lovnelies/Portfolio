@@ -1,16 +1,27 @@
-
 const Footer = () => { 
     return (
-        <footer className="bg-black" >
-            <div className="bg-black text-center flex justify-center items-center space-x-4 text-lg">
-                <p className="text-center text-white py-4"> © 2025 Mi Portafolio. Todos los derechos reservados.</p>
-                <a href='https://www.linkedin.com/in/matias-cruz-51b8092a8/?trk=public-profile-join-page' className='text-white text-center block py-2'>Linkedin</a>
-                <a href='https://github.com/NiftyBoi' className='text-white text-center block py-2'>Github</a>
+        <footer style={{ backgroundColor: "#fdaeae" }}> 
+            <div className="text-center flex justify-center items-center space-x-4 text-lg">
+                <p className="text-center text-white py-4"> © 2025 Portfolio ( TᗜT)b</p>
+                <a 
+                    href='https://www.linkedin.com/in/yulissarivasm/' 
+                    className='text-white text-center block py-2' 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Linkedin
+                </a>
+                <a 
+                    href='https://github.com/lovnelies' 
+                    className='text-white text-center block py-2' 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Github
+                </a>
             </div>
         </footer>
     );
 }
 
-
 export default Footer;
-

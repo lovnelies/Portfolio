@@ -39,12 +39,12 @@ const ContactForm = () => {
   return (
     <section className="py-12 bg-[#f6e2b3] px-6 font-poppins text-[#ff8daa]">
       <div className="max-w-2xl mx-auto  rounded-xl shadow-md p-8">
-        <h2 className="text-4xl font-bold mb-6 text-center text-[#ff8daa]">Contáctame 💌</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center text-[#ff8daa]">Contact Me 💌</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"
             name="name"
-            placeholder="Tu nombre"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleChange}
             required
@@ -53,7 +53,7 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
-            placeholder="Tu correo"
+            placeholder="Your email"
             value={formData.email}
             onChange={handleChange}
             required
@@ -61,7 +61,7 @@ const ContactForm = () => {
           />
           <textarea
             name="message"
-            placeholder="Tu mensaje"
+            placeholder="Your text here"
             value={formData.message}
             onChange={handleChange}
             required
@@ -72,7 +72,7 @@ const ContactForm = () => {
             type="submit"
             className="bg-[#b49982] hover:bg-[#fdaeae] text-white font-semibold py-2 px-6 rounded-md transition"
           >
-            Enviar ✉️
+            Send ✉️
           </button>
           {status && <p className="text-center mt-2 text-sm text-pink-700">{status}</p>}
         </form>

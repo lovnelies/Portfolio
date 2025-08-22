@@ -21,11 +21,9 @@ function About() {
             <br />┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈୨୧
           </h1>
           <p className="text-base sm:text-lg text-[#7e6651] font-outfit leading-relaxed text-justify">
-            Hey ! I'm Yulissa and I'm 25 years old.
+            Hey ! I'm Yulissa and I'm 26 years old.
            <br />( ദ്ദി ˙ᗜ˙ )
-            <br />I love programming and developing solutions to everyday problems.
-            <br />I started this journey on 2022 with game developing and now I'm in the web developing area.
-            <br /> Don't have much to say
+            <br /> I like developing software that I'd want to use.
             <br />
           </p>
         </div>

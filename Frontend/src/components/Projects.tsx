@@ -2,22 +2,22 @@
 
 const projects = [
   {
-    title: "El Mirador Web",
+    title: "El Mirador Hotel Management System",
     description: "Proyecto página WEB gestión hotelera.",
     img: "/images/project1.jpeg",
-    link: "https://github.com/lovnelies/El-Mirador-WEB", // Enlace al proyecto o repositorio
+    link: "https://github.com/lovnelies/El-Mirador-WEB",
   },
   {
-    title: "Proyecto 2 Título",
-    description: "Este proyecto trata de como el bl cambió al mundo.",
+    title: "PetFind",
+    description: "Proyecto página WEB para búsqueda de mascotas perdidas.",
     img: "/images/project2.jpeg",
-    link: "#",
+    link: "https://github.com/lovnelies/PetFind",
   },
   {
-    title: "Proyecto 3 Título",
-    description: "Hola este es un proyecto que explora las características negativas del ser humano.",
-    img: "/images/project3.jpeg",
-    link: "#",
+    title: "TriviAR",
+    description: "Aplicación móvil de trivia con realidad aumentada.",
+    img: "/images/project3.jpg",
+    link: "https://github.com/lovnelies/TriviaAR",
   },
 ];
 
@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects" className="py-16">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-[#7e6651] text-4xl font-semibold text-center mb-12">
-          My Works
+          My Projects
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -43,6 +43,8 @@ const Projects = () => {
                 <a
                   href={project.link}
                   className=" hover:underline mt-4 inline-block"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
                   style={{color: "#ff8daa"}}
                 >
                   View Project
